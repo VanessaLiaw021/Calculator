@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=PT+Serif:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.container {
+    width: 405px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.title h1 {
+    letter-spacing: 3px;
+    position: relative;
+    top: 15px;
+}
+
+/* Toggle title and heading */
+.toggle {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.toggle-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -30px;
+}
+
+.toggle-title label {
+    margin: 0 6px;
+}
+
+.toggle-btn {
+    border-radius: 20px;
+    height: 25px;
+    padding: 5px;
+    margin-top: 2px;
+}
+
+.toggle-btn input {
+    margin: 2px 2px 0 3px;
+}
+
+input[type="radio"] {
+    font-size: 15px;
+    border: 1px solid pink;
+}
+
+/* Screen */
+#calculator {
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    font-size: 30px;
+    font-family: "League Spartan", sans-serif;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+/* Buttons */
+.calc-btn  {
+    border-radius: 10px; 
+    padding-left: 2px;
+}
+
+.table {
+    border-spacing: 15px;
+}
+
+.calc-btn button {
+    width: 70px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.button button {
+    font-size: 18px;
+}
+
+.reset button, .equal button {
+    width: 155px;
+}
+
+.reset button {
+    font-family: "League Spartan", sans-serif; 
+    letter-spacing: 3px;
+}
+
+/* Theme one */
+body#theme1 {
+    background-color: #E56B67;
+}
+
+body#theme1 .container {
+    background-color: #D1BECF;
+}
+
+body#theme1 .toggle-btn, body#theme1 .calc-btn {
+    background-color: white;
+} 
+
+body#theme1 .calc-btn button {
+    background-color: #BB7E8C;
+}
+
+body#theme1 .calc-button button {
+    background-color: #D89A9E;
+}
+
+body#theme1 .button button {
+    color: white;
+}
+
+body#theme1 .reset button, body#theme1 .equal button {
+    background-color: #C9B6BE;
+}
+
+/* Theme 2 */
+body#theme2 {
+    background-color: #ECFFF8;
+}
+
+body#theme2 .container {
+    background-color: #C589E8;
+}
+
+body#theme2 .toggle-btn, body#theme2 .calc-btn {
+    background-color: white;
+} 
+
+body#theme2 .calc-btn button {
+    background-color: #E3DAFF;
+}
+
+body#theme2 .calc-button button {
+    background-color: #E5A4CB;
+}
+
+body#theme2 .button button {
+    color: black;
+}
+
+body#theme2 .reset button, body#theme2 .equal button {
+    background-color: #A67DB8;
+}
+
+/* Theme 3 */
+body#theme3 {
+    background-color: #70EE9C;
+}
+
+body#theme3 .container {
+    background-color: #434371;
+}
+
+body#theme3 .toggle-btn, body#theme3 .calc-btn {
+    background-color: white;
+} 
+
+body#theme3 .calc-btn button {
+    background-color: #B5F44A;
+}
+
+body#theme3 .calc-button button {
+    background-color: #79AEA3;
+}
+
+body#theme3 .button button {
+    color: black;
+}
+
+body#theme3 .reset button, body#theme3 .equal button {
+    background-color: #DDF0FF;
+}
+
+/* Theme 4 */
+body#theme4 {
+    background-color: black;
+}
+
+body#theme4 #calculator {
+    background-color: black;
+    color: white;
+}
+
+body#theme4 .container {
+    background-color: white;
+}
+
+body#theme4 .toggle-btn, body#theme4 .calc-btn {
+    background-color: black;
+} 
+
+body#theme4 .calc-btn button {
+    background-color: #796465;
+}
+
+body#theme4 .calc-button button {
+    background-color: #CB8589;
+}
+
+body#theme4 .button button {
+    color: white;
+}
+
+body#theme4 .reset button, body#theme4 .equal button {
+    background-color: #D7B29D;
+}
